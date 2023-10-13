@@ -1,4 +1,4 @@
-# Ubuntu14-Wii
+# Ubuntu 14 Nintendo Wii
 
 
 
