@@ -8,6 +8,7 @@ This repository contains images of Ubuntu 14 for the Wii. Downloads are found to
 Trying to bring newer versions of Ubuntu to the Wii has been a project of mine for the last few months. Many trial and errors.
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
 But this version uses the same bootloader with a different kernel, a newer one. And it also boots Ubuntu 14 instead of Debian 8.
+Kernel branch used was "stable-v3.14.19". Originally used the Rebased Kernel but things where broken.
 
 # How to Install (Homebrew Needed!)
 In the download section you will find a .img.gz file. That file will contain a .img file with two partitions: a fat32 partition and a ext4 partition. The fat32 partition will contain the Linux loader for the Homebrew Channel.
