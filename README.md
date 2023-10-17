@@ -14,7 +14,7 @@ Kernel branch used was "rebased-v3". Originally used the Stable Kernel but thing
 # How to Install (Homebrew Needed!)
 In the download section you will find a .img.gz file. That file will contain a .img file with two partitions: a fat32 partition and a ext4 partition. The fat32 partition will contain the Linux loader for the Homebrew Channel.
 
-Just flash this image to an SD Card (16gb or more needed!)
+Just flash this image to an SD Card (8GB or more needed!)
 
 *TO RUN OVER USB, YOU MUST RECOMPILE THE KERNEL!*
 https://github.com/neagix/wii-linux-ngx#building-the-kernel 
@@ -24,16 +24,18 @@ https://github.com/neagix/wii-linux-ngx#building-the-kernel
 
 # How To Boot
 You will load up the homebrew channel to see its empty, thats normal. Simply press the home button and click "Launch BootMii"
-That will instead load a bootloader known as Gumboot. More on Gumboot in sources below.
-In order to select a different item in gumboot you MUST have a gamecube controller plugged in. But, thankfully it will auto boot in 30 seconds. If you have a controller hooked up and would like to use a more unstable kernel, please select unstable.
+That will instead load a bootloader known as Gumboot. More on Gumboot [here](https://neagix.github.io/gumboot/).
+In order to select a different item in gumboot you MUST have a gamecube controller plugged in. But, thankfully it will auto boot in 30 seconds.
 
-You will see an errors have been found at / dialog, obviously im no pro, so I did most likely messed something up, but Press I on a keyboard to ignore this and continue to boot.
+You will see an errors have been found at / dialog, im no pro, so I did most likely mess something up, but press I on a keyboard to ignore this and continue to boot.
 
 # Known Issues
 
 -Currently offline only, The b43 firmware for the wifi card is broken. Ethernet adapters *DO NOT* work either.
 (For internet please use the older more stable version https://github.com/Wiibuntu/Xubuntu-9.04-Wii)
 
--No Desktop.. Just terminal.
+-No Desktop, Just terminal.
+
+-Missing /tmp and Errors in /
 
 
