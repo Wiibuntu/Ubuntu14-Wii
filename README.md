@@ -35,6 +35,7 @@ You will see an errors have been found at / dialog, im no pro, so I did most lik
 
 # Login
 user- ubuntu
+
 pass- ubuntu
 
 # Known Issues
