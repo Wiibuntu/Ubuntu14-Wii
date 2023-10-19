@@ -33,6 +33,10 @@ You will see an errors have been found at / dialog, im no pro, so I did most lik
 
 ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.04%20PM.png) ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.19%20PM.png)
 
+# Login
+user- ubuntu
+pass- ubuntu
+
 # Known Issues
 
 -Currently offline only, The b43 firmware for the wifi card is broken. Ethernet adapters *DO NOT* work either.
