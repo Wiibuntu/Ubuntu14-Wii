@@ -9,12 +9,12 @@ Trying to bring newer versions of Ubuntu to the Wii has been a project of mine f
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
 But this version uses the same bootloader with a different kernel, a newer one. And it also boots Ubuntu 14 instead of Debian 8.
 
-Kernel branch used was "rebased-v3". Originally used the Stable Kernel but things where broken.
+Kernel branch used was "Stable 3x". Originally used the "rebased-v3" Kernel but things where broken.
 
 # How to Install (Homebrew Needed!)
-In the download section you will find a .img.gz file. That file will contain a .img file with two partitions: a fat32 partition and a ext4 partition. The fat32 partition will contain the Linux loader for the Homebrew Channel.
+In the download section you will find a .img file. That file will two partitions: a fat32 partition and a ext4 partition. The fat32 partition will contain the Linux loader for the Homebrew Channel.
 
-Just flash this image to an SD Card (8GB or more needed!)
+Just flash this image to an SD Card (2GB or more needed!)
 
 *TO RUN OVER USB, YOU MUST RECOMPILE THE KERNEL!*
 https://github.com/neagix/wii-linux-ngx#building-the-kernel 
@@ -29,6 +29,8 @@ In order to select a different item in gumboot you MUST have a gamecube controll
 
 ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.50.29%20PM.png) ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.50.53%20PM.png) 
 
+Gumboots Options are a little different then shown (Image is for last version) But it will still boot to the Stable kernel by itself after 30 seconds.
+
 You will see an errors have been found at / dialog, im no pro, so I did most likely mess something up, but press I on a keyboard to ignore this and continue to boot.
 
 ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.04%20PM.png) ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.19%20PM.png)
@@ -38,13 +40,7 @@ user- ubuntu
 
 pass- ubuntu
 
-# Known Issues
+# Wi-Fi Config
 
--Currently offline only, The b43 firmware for the wifi card is broken. Ethernet adapters *DO NOT* work either.
-(For internet please use the older more stable version https://github.com/Wiibuntu/Xubuntu-9.04-Wii)
-
--No Desktop, Just terminal.
-
--Missing /tmp and Errors in /
-
+Please download the "Whiite-ez-wifi-config" when you download the .img file and you will need to get that file over to your wii. If you cant get the file over to the Linux filesystem, you will have to do "sudo nano /etc/network/interfaces" and add your wifi informantion manually.
 
