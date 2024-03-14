@@ -44,3 +44,7 @@ pass- ubuntu
 
 Please download the "Whiite-ez-wifi-config" when you download the .img file and you will need to get that file over to your wii. If you cant get the file over to the Linux filesystem, you will have to do "sudo nano /etc/network/interfaces" and add your wifi informantion manually.
 
+# Known Issues
+
+-libc6 package is an unstable version, In order to properly install and upgrade you MUST downgrade libc6 with aptitude to version 2.19-0ubuntu6.
+
