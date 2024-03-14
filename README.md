@@ -44,6 +44,8 @@ pass- ubuntu
 
 Please download the "Whiite-ez-wifi-config" when you download the .img file and you will need to get that file over to your wii. If you cant get the file over to the Linux filesystem, you will have to do "sudo nano /etc/network/interfaces" and add your wifi informantion manually.
 
+If wlan0 gets stuck on DOWN, this is an issue with wpasupplicant. Please downgrade to the .DEB provided in repo. This will allow you to connect to wifi and upgrade to a stable version of wpasupplicant.
+
 # Known Issues and Fixes
 
 Going to be testing and using this a  lot until a newer kernel is built. I will post any issues I find below and how to fix them if possible.
