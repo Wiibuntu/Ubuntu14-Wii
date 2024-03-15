@@ -56,3 +56,6 @@ Going to be testing and using this a  lot until a newer kernel is built. I will 
 -More packages happen to be unstable, thankfully aptitude can help you solve that problem and downgrade them (even in batches) just keep requesting a new solution until one includes downgrading the packages causing problems.
 
 -Sometimes on reboot WLAN0 will not connect by itself (after setting up wifi for the first time). To fix that just so the command "sudo ifdown wlan0" and then "sudo ifup wlan0". If the command hangs and goes on forever press Crtl+C, Most of the time it already has an IP address and is UP but this is a bug. Use the command "ip addr" to verify.
+
+# Contact
+Contact me at wiibuntuhelp@gmail.com I will always try to help if I can and have the time to do so.
