@@ -59,3 +59,7 @@ Going to be testing and using this a  lot until a newer kernel is built. I will 
 
 # Contact
 Contact me at wiibuntuhelp@gmail.com I will always try to help if I can and have the time to do so.
+
+
+# TRY UBUNTU 16!
+Ubuntu 16 is in its EARLY STAGES and I have decided to open those early stages up to everyone! Please give  it a try [here](https://github.com/Wiibuntu/Ubuntu-16.04-Wii)
