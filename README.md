@@ -49,8 +49,8 @@ If wlan0 gets stuck on DOWN, this is an issue with wpasupplicant. Please downgra
 Going to be testing and using this a  lot until a newer kernel is built. I will post any issues I find below and how to fix them if possible.
 
 -Fixed Boot Issues (v2.0)
+
 ![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.04%20PM.png) 
-![alt text](https://github.com/Wiibuntu/Ubuntu14-Wii/blob/main/Screenshots/Screen%20Shot%202023-10-17%20at%205.52.19%20PM.png)
 
 -libc6 package and others are now stable by default due to newer kernel. (v2.0)
 
